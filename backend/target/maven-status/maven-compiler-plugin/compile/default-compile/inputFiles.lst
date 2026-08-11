@@ -1,0 +1,10 @@
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\api\ApiModels.java
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\api\SocialController.java
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\common\ApiExceptionHandler.java
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\data\SocialRepository.java
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\security\JwtFilter.java
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\security\JwtService.java
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\security\OncePerRequestFilter.java
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\security\SecurityConfig.java
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\service\SocialService.java
+C:\Users\User\Downloads\web_work\backend\src\main\java\com\example\social\SocialApplication.java
