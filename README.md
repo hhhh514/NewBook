@@ -12,7 +12,7 @@ docker compose up --build
 ```powershell
 docker compose down
 ## 系統架構
-
+```
 ```text
 Browser → Nginx Web Server → Spring Boot Application Server → MySQL Database
 ```
