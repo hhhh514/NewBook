@@ -6,7 +6,7 @@
 ```powershell
 docker compose up --build
 ```
-第一次啟動會下載並建立 Nginx、Vue 前端、Spring Boot 後端與 MySQL 資料庫容器。資料庫會自動執行 `DB/01_schema.sql` 建立資料表與 Stored Procedures，並執行 `DB/02_sample_data.sql` 建立範例資料。
+第一次啟動會下載並建立 Nginx、Vue 前端、Spring Boot 後端與 MySQL 資料庫容器。資料庫會自動依序執行 `DB/01_ddl.sql` 建立資料庫、資料表與 Stored Procedures，再執行 `DB/02_dml.sql` 建立範例資料。
 完成後開啟 [http://localhost](http://localhost)。
 停止服務時，先按 `Ctrl + C`，再執行：
 ```powershell
