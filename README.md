@@ -1,5 +1,5 @@
-# Simple Social Platform
-簡易社群媒體平台，使用 Vue 3、Spring Boot、MySQL 與 Nginx。
+# Social Platform
+社群平台，使用 Vue 3、Spring Boot、MySQL 與 Nginx。
 ## 啟動方式
 請先確認 Docker Desktop 已啟動，然後在專案根目錄執行：
 
