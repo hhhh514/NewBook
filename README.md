@@ -11,8 +11,9 @@ docker compose up --build
 停止服務時，先按 `Ctrl + C`，再執行：
 ```powershell
 docker compose down
-## 系統架構
 ```
+## 系統架構
+
 ```text
 Browser → Nginx Web Server → Spring Boot Application Server → MySQL Database
 ```
