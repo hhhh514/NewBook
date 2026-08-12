@@ -8,7 +8,7 @@ services:
   app:
     build: .
     environment:
-      DB_URL: jdbc:mysql://db:3306/work?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Taipei
+      DB_URL: jdbc:mysql://db:3306/work?useUnicode=true&characterEncoding=UTF-8&connectionCollation=utf8mb4_unicode_ci&serverTimezone=Asia/Taipei
       DB_USERNAME: social_user
       DB_PASSWORD: social_password
       JWT_SECRET: replace-with-a-long-random-production-secret-at-least-32-bytes
@@ -17,6 +17,9 @@ services:
         condition: service_healthy
   db:
     image: mysql:8.4
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
     environment:
       MYSQL_DATABASE: work
       MYSQL_USER: social_user
